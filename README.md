@@ -1,4 +1,5 @@
 # Welcome - DJS is glad to have you!
+![image](https://github.com/user-attachments/assets/42d608a0-3d69-45c1-a45b-c0e43a3b2957)
 
 This is your project README - the face of your project.  Go ahead and make this better.
 This project is configured to use [djs-dev-tools-all](https://djs.deshaw.com/projects/djs-dev-tools/master/docs/),
