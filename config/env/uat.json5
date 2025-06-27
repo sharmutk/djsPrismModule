@@ -1,0 +1,27 @@
+// Refer https://djs.deshaw.com/learn/guides/moving-to-production/
+{
+  "server": {
+    "nginx": {
+      "serverName": "djs-app-starter-uat.deshaw.com"
+    },
+    "serviceDirector": {
+      "svcName": "fo/group/djs-app-starter-uat",
+      "sonar": {
+        "domain": "group",
+        "subDomain": "app-starter-uat",
+        "processType": "djs-app-starter"
+      }
+    },
+    "logDir": "/absolute/path/to/directory"
+  },
+  "node": {
+    "djsServerOptions": {
+      "sessionSecret": null
+    }
+  },
+  "desflowRequestConfig":{
+    "desflowHost": "desflowtest",
+    "ba": "DJS",
+    "category": "Web"
+  },
+}

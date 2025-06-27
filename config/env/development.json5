@@ -1,0 +1,13 @@
+{
+  "server": {
+  },
+  "node": {
+    "djsServerOptions": {
+    }
+  },
+  "desflowRequestConfig":{
+    "desflowHost": "desflowtest",
+    "ba": "DJS",
+    "category": "Web"
+  },
+}

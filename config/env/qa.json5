@@ -1,0 +1,27 @@
+{
+  "server": {
+    "nginx": {
+      "serverName": "djs-app.deshaw.com"
+    },
+    "serviceDirector": {
+      "svcName": "u/djstest/app",
+      "preLaunch": ["export PATH=/nix/profiles/djstest/default/bin:$PATH", "node --version", "npm --version", "which nginx", "nginx -v"],
+      "sonar": {
+        "domain": "group",
+        "subDomain": "app-starter-qa",
+        "processType": "djs-app-starter"
+      }
+    },
+    "logDir": "/proj/scratch-nb-djstest/logs/djs-app"
+  },
+  "node": {
+    "djsServerOptions": {
+      "sessionSecret": null
+    }
+  },
+  "desflowRequestConfig":{
+    "desflowHost": "desflowtest",
+    "ba": "DJS",
+    "category": "Web"
+  },
+}

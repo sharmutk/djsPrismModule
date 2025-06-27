@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>DJS App</title>
+    <link rel="shortcut icon" href="dist/favicon.ico" type="image/x-icon">
+
+    <%- include("./generated-head.html") %>
+    <link href="<%= assets.getGeneratedPaths('main.css')[0] %>" media="all" rel="stylesheet" type="text/css" />
+    <link href="<%= assets.getGeneratedPaths('main.css')[1] %>" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="root"></div>
+<script>
+    window.__INITIAL_REDUX_STATE__ = '<%= reduxState %>'
+</script>
+
+</body>
+
+<script src="<%= assets.getGeneratedPaths('main.js')[0] %>"></script>
+
+</html>

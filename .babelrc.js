@@ -1,0 +1,1 @@
+module.exports = require('@deshaw/djs-dev-tools-all').getDefaultBabelConfig;
